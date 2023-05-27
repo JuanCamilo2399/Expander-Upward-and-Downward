@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="EMsK7Z" name="Expander" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="T6UFns" name="Expander">
+    <GROUP id="{5F588CA2-BE70-8539-4EDF-F777A41ECFC4}" name="Assets">
+      <FILE id="cgxF8d" name="KnobRatio.png" compile="0" resource="1" file="Assets/KnobRatio.png"/>
+      <FILE id="a0xThN" name="KnobsART.png" compile="0" resource="1" file="Assets/KnobsART.png"/>
+      <FILE id="pfFohB" name="modo_perilla_01.png" compile="0" resource="1"
+            file="Assets/modo_perilla_01.png"/>
+      <FILE id="zDK3E2" name="modo_perilla_03.png" compile="0" resource="1"
+            file="Assets/modo_perilla_03.png"/>
+      <FILE id="JzSJx8" name="galleknob.png" compile="0" resource="1" file="Assets/galleknob.png"/>
+      <FILE id="elxSRv" name="Knob.png" compile="0" resource="1" file="Assets/Knob.png"/>
+      <FILE id="dE4G7z" name="knob2.png" compile="0" resource="1" file="Assets/knob2.png"/>
+      <FILE id="Bwg8bp" name="knob3.png" compile="0" resource="1" file="Assets/knob3.png"/>
+      <FILE id="flCBhZ" name="knob4.png" compile="0" resource="1" file="Assets/knob4.png"/>
+      <FILE id="CQ03Jt" name="switch-rup.png" compile="0" resource="1" file="Assets/switch-rup.png"/>
+      <FILE id="yQtZsF" name="switch-rdown.png" compile="0" resource="1"
+            file="Assets/switch-rdown.png"/>
+      <FILE id="yhaGxm" name="FondoImagen.jpg" compile="0" resource="1" file="Assets/FondoImagen.jpg"/>
+      <FILE id="NtcHu6" name="knob5.png" compile="0" resource="1" file="Assets/knob5.png"/>
+      <FILE id="HRP2PL" name="Fondo Expander.png" compile="0" resource="1"
+            file="Assets/Fondo Expander.png"/>
+      <FILE id="tCbBjt" name="Leonardo_Creative_Generate_a_blue_futuristic_wallpaper_for_a_t_0.jpg"
+            compile="0" resource="1" file="Assets/Leonardo_Creative_Generate_a_blue_futuristic_wallpaper_for_a_t_0.jpg"/>
+    </GROUP>
+    <GROUP id="{6FA3C674-9D2E-E2CE-5E46-525DC4C66066}" name="Source">
+      <FILE id="dNLZEp" name="SpectrumClass.h" compile="0" resource="0" file="Source/SpectrumClass.h"/>
+      <FILE id="mgo4KF" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="eehkbS" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="Otxted" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="nYTjY2" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="FvtJM8" name="Compresion.h" compile="0" resource="0" file="Source/Compresion.h"/>
+      <FILE id="m6xXED" name="Compresion.cpp" compile="1" resource="0" file="Source/Compresion.cpp"/>
+      <FILE id="YBX58L" name="Redution.cpp" compile="1" resource="0" file="Source/Redution.cpp"/>
+      <FILE id="ZgvYFV" name="Redution.h" compile="0" resource="0" file="Source/Redution.h"/>
+      <FILE id="oHltF4" name="Level Meter.cpp" compile="1" resource="0" file="Source/Level Meter.cpp"/>
+      <FILE id="QafYsx" name="Level Meter.h" compile="0" resource="0" file="Source/Level Meter.h"/>
+      <FILE id="jqVctw" name="Curve.h" compile="0" resource="0" file="Source/Curve.h"/>
+      <FILE id="ddJpBe" name="ImageKnob.h" compile="0" resource="0" file="Source/ImageKnob.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Expander"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Expander"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
